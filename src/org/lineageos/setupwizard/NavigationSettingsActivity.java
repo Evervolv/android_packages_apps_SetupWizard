@@ -10,11 +10,10 @@ import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_3BUTTON_OVE
 import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_GESTURAL_OVERLAY;
 
 import static com.evervolv.internal.util.DeviceKeysConstants.KEY_MASK_APP_SWITCH;
+
 import static org.lineageos.setupwizard.SetupWizardApp.DISABLE_NAV_KEYS;
 import static org.lineageos.setupwizard.SetupWizardApp.NAVIGATION_OPTION_KEY;
 
-import android.animation.Animator;
-import android.animation.AnimatorListenerAdapter;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.UserHandle;
@@ -25,10 +24,10 @@ import android.widget.RadioGroup;
 
 import com.airbnb.lottie.LottieAnimationView;
 
-import org.lineageos.setupwizard.util.SetupWizardUtils;
-
 import evervolv.hardware.HardwareManager;
 import evervolv.provider.EVSettings;
+
+import org.lineageos.setupwizard.util.SetupWizardUtils;
 
 public class NavigationSettingsActivity extends BaseSetupWizardActivity {
 

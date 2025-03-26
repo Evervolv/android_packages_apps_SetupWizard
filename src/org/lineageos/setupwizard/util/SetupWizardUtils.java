@@ -49,13 +49,13 @@ import android.telephony.SubscriptionManager;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 
+import evervolv.provider.EVSettings;
+
 import org.lineageos.setupwizard.BaseSetupWizardActivity;
 import org.lineageos.setupwizard.SetupWizardApp;
 
 import java.io.File;
 import java.util.List;
-
-import evervolv.provider.EVSettings;
 
 public class SetupWizardUtils {
 
